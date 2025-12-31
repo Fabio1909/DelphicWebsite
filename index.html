@@ -3,21 +3,66 @@
   <head>
     <meta charset="utf-8">
     <title>Delphic Systems</title>
+
+    <!-- Tab icon -->
+    <link rel="icon" type="image/png" href="logo.png">
+
     <style>
       body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
         font-family: Arial, sans-serif;
-        text-align: center;
-        margin-top: 80px;
+        color: white;
       }
-      img {
-        max-width: 400px;
+
+      .container {
+        text-align: center;
+        padding: 40px;
+      }
+
+      .logo {
+        width: 160px;
+        margin-bottom: 30px;
+      }
+
+      .title {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 48px;
+        margin: 10px 0;
+      }
+
+      .subtitle {
+        font-size: 18px;
+        opacity: 0.85;
+        margin-bottom: 40px;
+      }
+
+      .coming-soon {
+        font-size: 22px;
+        letter-spacing: 2px;
+        opacity: 0.9;
       }
     </style>
   </head>
+
   <body>
-    <h1>Hello</h1>
-    <p>This is my website.</p>
-    <img src="logo.png" alt="My image">
+    <div class="container">
+      <img src="logo.png" alt="Delphic Systems logo" class="logo">
+
+      <div class="title">Delphic Systems</div>
+
+      <div class="subtitle">
+        Insight driven systems for what comes next
+      </div>
+
+      <div class="coming-soon">
+        Coming Soon...
+      </div>
+    </div>
   </body>
 </html>
 
