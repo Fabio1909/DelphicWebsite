@@ -76,11 +76,20 @@ a:hover{ text-decoration: underline; }
 .logo-img{
   width: 34px;
   height: 34px;
+  max-width: 34px;
+  max-height: 34px;
+  display: block;
+  object-fit: cover;
   border-radius: 10px;
-  object-fit: contain;
+
   background: rgba(255,255,255,0.06);
   border: 1px solid rgba(255,255,255,0.14);
-  padding: 4px;
+}
+
+.brand{
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .navlinks{
